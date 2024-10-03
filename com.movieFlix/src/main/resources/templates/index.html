@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}">
+<style>
+
+body{
+    
+background-color:grey;
+
+justify-content:center;
+align-items:center;
+
+
+}
+        #box {
+            border: 5px solid black;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: 50px auto;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+       h2{
+		font-size:24px;
+		color:violet;
+		text-align:center;
+
+		}
+                                                  
+                                                  
+                                                  
+#registerbtn{
+		background-color:blue;
+		padding:10px 20px;
+		border:none;
+		border-radius:5px;
+		
+		}
+
+#loginbtn{
+		background-color:green;
+		padding:10px 20px;
+		border:none;
+		border-radius:5px;
+	
+
+		}
+
+      
+</style>
+
+</head>
+
+
+<body>
+
+
+<div id="box" >
+<h2>Welcome to MovieFlix</h2>
+<form action="map-register">
+<button id="registerbtn">Sign Up</button> 
+</form>
+<br><br>
+<form action="map-login">
+<button id="loginbtn">Login</button>
+</form>
+</div>
+
+
+
+
+</body>
+</html>

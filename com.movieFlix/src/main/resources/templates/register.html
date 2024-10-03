@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration form</title>
+<style>
+body{
+background-color:gray;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+
+#container{
+background-color:#fff;
+padding :20px;
+border-radius:10px;
+width:300px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+
+}
+h2{
+
+text-align:center;
+color:orange;
+}
+
+.form-group{
+display:flex;
+align-items:center;
+margin-bottom:15px;
+}
+.form-group label{
+font-size:20px;
+ width:120px;
+display:block;
+margin-bottom:8px;
+color:violet;
+}
+
+.formgroup {
+
+width:100%;
+padding:8px;
+border:1px solid black;
+border-radius:5px;
+box-sizing:border-box;
+background-color:#007bff;
+}
+ 
+button{
+width:100%;
+padding:10px;
+border:1px solid #ccc;
+background-color:orange;
+color:#fff;
+border-radius:4px;
+cursor:pointer;
+
+}
+
+
+#box {
+           background-color:cream;
+            border: 2px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: 50px auto;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+       
+
+
+</style>
+
+
+
+
+</head>
+<body>
+<div id="box" class="container">
+	<h2>Enter Your Details:</h2>
+	<form action ="register" method="post">
+	<div class="form-group">
+	<label>Name:</label>
+	<input type="text" name="name">
+	</div>
+	
+	<div class="form-group">
+	<label>Email:</label>
+	<input type="email" name="email">
+	</div>
+	
+	<div class="form-group">
+	<label>Password:</label>
+	<input type="password" name="password">
+	</div>
+	
+	<div class="form-group">
+	<label>Phone No:</label>
+	<input type="number" name="phone">
+	</div>
+	
+	<div class="form-group">
+	<label>Gender:</label>
+	M<input type="radio" name="gender" value="male">
+	F<input type="radio" name="gender" value="female">
+	O<input type="radio" name="gender" value="others">
+	</div>
+	
+	<div class="form-group">
+	<label>Address:</label>
+	<textarea name="address"></textarea>
+	</div>
+	
+	<button type="submit" >REGISTER</button>
+	</form>
+	
+	</div>
+
+</body>
+</html>

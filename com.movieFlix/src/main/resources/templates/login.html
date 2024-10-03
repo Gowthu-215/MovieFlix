@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{
+background-color:blue;
+justify-content:center;
+
+align-items:center;
+
+}
+
+h2{
+text-align:center;
+color:orange;
+}
+#box{
+background-color:cream;
+            border: 2px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            width: 250px;
+            margin: 50px auto;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 1, 1, 0.1);
+}
+#loginbtn{
+background-color:orange;;
+		padding:10px 20px;
+		border:none;
+		border-radius:5px;
+}
+#container{
+background-color:#ccc;
+padding :20px;
+border-radius:10px;
+width:300px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+
+}
+.form-group{
+display:flex;
+align-items:center;
+margin-bottom:15px;
+}
+.form-group label{
+
+ width:70px;
+display:block;
+margin-bottom:5px;
+color:yellow;
+}
+
+</style>
+
+
+
+
+
+
+</head>
+<body>
+  <div id="box" class="container" >
+	<h2>Kindly Login:</h2>
+	<form action="login" method="post">
+	<div class="form-group">
+	<label>Email:</label>
+	<input type="email" name="email">
+	</div>
+	<div class="form-group">
+	<label>Password:</label>
+	<input type="password" name="password">
+	</div>
+	<button id="loginbtn">Login</button>
+
+</form>
+</div>
+
+</body>
+</html>
